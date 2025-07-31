@@ -6,3 +6,20 @@
   width: fit-content;
   min-height: 25px;
 }
+
+.disco {
+  border-radius: 50%;
+  border: 1.5px solid black;
+}
+
+.disco[data-cor="branco"] {
+  background: white;
+}
+
+.disco[data-cor="preto"] {
+  background: black;
+}
+
+.disco[data-cor="transparente"] {
+  border-color: transparent;
+}
