@@ -1,0 +1,8 @@
+.tabuleiro {
+  background-color: rgb(236, 12, 12);
+  display: grid;
+  grid-template-columns: repeat(7, 25px);
+  gap: 5px;
+  width: fit-content;
+  min-height: 25px;
+}
